@@ -1,0 +1,185 @@
+div#body{
+    text-align: center;
+    margin-top: 30px;
+    color:cornsilk;
+    font-size: 20px;
+}
+input{
+ border:5px solid indianred;
+  border-radius:29px ;
+  font-size: medium;
+  height:42px;
+  width: 241px;
+  font-size: 23px;
+  color:black;
+}
+table{
+    margin: auto;
+    margin-top: 13px;
+    
+}
+div#button{
+    
+    display: inline-block;
+    margin: auto;
+    border: 2px solid indigo;
+    border-radius:18px;
+    height: 344px;
+   width: 555px;
+    padding-top: 20px;
+    background-color: khaki;
+    box-shadow: orchid;
+    
+
+}
+
+header.nav{
+    border:2px solid goldenrod;
+    border-radius: 30px;
+    margin: auto;
+    background-color:black;
+    position: stick;
+    top:0px;
+    right: 0px;
+    width:1318px;
+    height:74px;
+    position:sticky;
+}
+ul{
+    list-style:none ;
+    display:flex;
+    overflow: auto;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    color: white;
+    padding-right:109px;
+    margin:12px;
+}
+
+
+div#body{
+    border:5px double crimson;
+    border-radius: 47px;
+    margin-top: 24px;
+    background-color: lightseagreen;
+}
+}
+button:hover{
+    background-color: pink;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+li a:hover{
+    border:2px solid white;
+  border-radius:5px ;
+   background-color: salmon;
+   color:darkslategray;
+}
+div#console{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellowgreen;
+    border-radius:54px;
+    background-color: thistle;
+    padding: 23px;
+    margin: 21px;
+
+}
+div#anotherconsole{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid slateblue;
+    border-radius:54px;
+    background-color:tomato; 
+    padding: 23px;
+    margin:21px;
+}
+div#kelvinconsole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid royalblue;
+    border-radius:54px;
+    background-color:cyan;
+    padding: 23px;
+    margin:21px;
+}
+div#celsiusconsole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gold;
+    border-radius:54px;
+    background-color:silver;
+    padding: 23px;
+    margin:21px;
+}
+div#fahrenheitconsole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightslategrey;
+    border-radius:54px;
+    background-color: coral;
+    padding: 23px;
+    margin:21px;
+}
+div#tokconsole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lawngreen;
+    border-radius:54px;
+    background-color: lightblue;
+    padding: 23px;
+    margin:21px; 
+}
+div#console:hover{
+    width:400px;
+    margin: auto;
+}
+div#anotherconsole:hover{
+    width:400px;
+    margin: auto;
+}
+div#kelvinconsole:hover{
+    width:400px;
+    margin: auto;
+}
+div#celsiusconsole:hover{
+    width:400px;
+    margin: auto;
+}
+div#fahrenheitconsole:hover{
+    width:400px;
+    margin: auto;
+}
+div#tokconsole:hover{
+    width:400px;
+    margin: auto;
+}
+span{
+    float:right;
+    font-size: 23px;
+    color:bisque;
+    margin:14px;
+    }
+B#NOTE{
+    color:purple;
+    font-size: large;
+}
