@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trigcalc.css">
+    <title> trignometryCALCULATOR</title>
+    
+</head>
+<body onload="time()">
+
+    <header class="nav">
+        
+        <ul>
+            <li> <a href="https://www2.clarku.edu/faculty/djoyce/trig/identities.html" target="blank">trignometric formulaes</a></li>
+            <li><a href="calculator.html" target="blank">simple calculator</a></li>
+            <li><a href="convertor.html" target="blank">temperature convertor</a></li>
+            <span id="time"></span> 
+        </ul>    
+    </header>
+
+    <div id="body">
+        <h1>TRIGNOMETRIC CALCULATOR</h1>
+        <div id="button"> 
+            <input id="screen"> 
+            
+            <table>
+                   
+                    <tr>
+                        <td> <button onclick="fnsin()">sin</button></td>
+                        <td> <button onclick="fncos()">cos</button></td>
+                        <td> <button onclick="fntan()">tan</button></td>
+                        <td> <button onclick="num(7)">7</button></td>
+                         <td><button onclick="num(8)">8</button></td>
+                        <td> <button onclick="num(9)">9</button></td>
+                    </tr>
+                    <tr>
+                        <td> <button onclick="fncosec()">cosec</button></td>
+                        <td> <button onclick="fnsec()">sec</button></td>
+                        <td> <button onclick="fncot()">cot</button></td>
+                         <td> <button onclick="num(4)">4</button></td>
+                         <td> <button onclick="num(5)">5</button></td>
+                         <td> <button onclick="num(6)">6</button></td>
+                    </tr>
+                    <tr>
+                       <td> <button onclick="sqrt()">^1/2</button></td> 
+                       <td> <button onclick="cubert()">^1/3</button></td> 
+                       <td> <button class="side" onclick="btn()">C</button></td> 
+                       <td> <button onclick="num(1)">1</button></td>
+                       <td> <button onclick="num(2)">2</button></td> 
+                       <td> <button onclick="num(3)">3</button></td>  
+                    </tr>
+                    <tr>
+                        <td> <button class="side" onclick="clentry()">CE</button></td>
+                        <td> <button onclick="num(0)" >0</button></td>
+                        <td> <button onclick="num(00)">00</button></td>
+                        <td> <button onclick="cubic()">^3</button></td>
+                        <td> <button onclick="quad()">^4</button></td>
+                        <td> <button onclick="square()">^2</button></td>
+                    </tr>        
+                   <tr>
+                        <td> <button class="fn" onclick="log()">log10</button></td>
+                        <td> <button  class ="fn"onclick="e()">e^x</button></td>
+                      <td> <button  class="fn"onclick="loge()">ln</button></td>   
+                        <td> <button  class="fn"onclick="log2()">log2</button></td>
+                        <td> <button class="fn" onclick="fact()">(fact)!</button></td>
+                        
+                   </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+ <section>
+     <p>
+        <h1>TO FIND ANY VALUE OF TRIGNOMETRIC FUNCTION YOU NEED TO JUST TYPE THE ANGLE AND THEN CLICK ON THE DESIRED TRIGNOMETRIC FUNCTION BUTTON.</h1> 
+         EX- TOFIND SIN60=JUST TYPE 60 ON INPUT SCREEN AND PRESS SIN BUTTON.
+         <h1>THINGS TO REMEMBER WHILE USING CALCULATOR...</h1>
+         1.To find square root of any number please type the number on input screen and then press 1/2 button.<br> 
+         2.to find cube root of any number please type the number on input screen and then press 1/3 button.<br>
+         3.to find 4 times of any number please type the number on input screen and then press 4 button.<br>
+         4.to find square of any number please type the number on input screen and then press 2 button.<br>
+         5.to find cube of any number please type the number on input screen and then press 3 button.<br>
+         6.to find factorial of any number plz type the number of whom you want factorial and then press (fact)! button.<br>
+        <!----<h1>TO FIND ANY VALUE OF TRIGNOMETRIC FUNCTION YOU NEED TO JUST TYPE THE ANGLE AND THEN CLICK ON THE DESIRED TRIGNOMETRIC FUNCTION BUTTON.</h1> 
+         6.EX- TOFIND SIN60=JUST TYPE 60 ON INPUT SCREEN AND PRESS SIN BUTTON.--->
+    </p>
+ </section>
+</body> 
+<script src="trigno.js"></script>
+
+</html>
