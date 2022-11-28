@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conv.css">
+    <title>TEMPERATURE CONVERTOR</title>
+    
+</head>
+<body onload="time()">
+
+    <header class="nav">
+        
+        <ul>
+            <li> <a href="https://www2.clarku.edu/faculty/djoyce/trig/identities.html" target="blank">trignometric formulaes</a></li>
+            <li><a href="calculator.html" target="blank">simple calculator</a></li>
+            <li><a href="trignometry.html" target="blank">trignometric calculator</a></li>
+            <span id="time"></span> 
+        </ul> 
+       
+    </header>
+
+    <div id="body">
+        <h1>TEMPERATURE CONVERTOR</h1>
+            <div id="console"> 
+            <h1>fahreNheitConverter</h1>
+            <label>fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+            oninput="temperatureConverter(this.value)"
+            onchange="temperatureConverter(this.value)">
+            Celsius:<input id="output" placeholder="celsius">
+            </div>
+            <div id="anotherconsole">
+            <h1>celsiusConverter</h1>
+            <label>celsius</label>
+            <input id="inputcelsius" type="number" placeholder="celsius"
+            oninput="fahreheitConverter(this.value)"
+            onchange="fahrenheitConverter(this.value)">
+            Fahrenheit:<input id="outputf"placeholder="fahrenheit">
+           </div>
+           <div id="kelvinconsole">
+           <h1> kelvinConverter</h1>
+           <label>kelvin</label>
+            <input id="inputk" type="number" placeholder="kelvin"
+            oninput="kelvinConverter(this.value)"
+            onchange="kelvinConverter(this.value)">
+            celsius:<input id="outputk" placeholder="celsius">
+            </div>
+            <div id="celsiusconsole">
+            <h1>celsius to kelvin convertor</h1>
+            <label>celsius</label>
+            <input id="inputc" type="number" placeholder="celsius"
+            oninput="celsiusConverter(this.value)"
+            onchange="celsiusConverter(this.value)">
+            kelvin:<input id="outputc" placeholder="kelvin">
+            </div>
+            <div id="fahrenheitconsole">
+            <h1>kelvin to fahrenheitConverter</h1>
+            <label>kelvin</label>
+            <input id="inputkelvin" type="number" placeholder="kelvin"
+            oninput="tokelvinConverter(this.value)"
+            onchange="tokelvinConverter(this.value)">
+            fahrenheit:<input id="outputfa" placeholder="fahrenheit">
+            </div>
+            <div id="tokconsole"> 
+            <h1>fahrenheit to kelvinConverter</h1>         
+            <label>fahrenheit</label>
+            <input id="inputf" type="number" placeholder="fahrenheit"
+            oninput="tofahrenheitConverter(this.value)"
+            onchange="tofahrenheitConverter(this.value)">
+            kelvin:<input id="outputke" placeholder="kelvin">
+            </div>     
+
+           
+           
+    </div>   
+    
+
+  
+    
+</body>
+<script src="convertor.js"></script>
+</html>
