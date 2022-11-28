@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULATOR</title>
+    
+</head>
+<body onload="time()" onload="alertn()">
+
+    <header class="nav">
+        
+        <ul>
+            <li> <a href="https://www2.clarku.edu/faculty/djoyce/trig/identities.html" target="blank">trignometric formulaes</a></li>
+            
+            <li> <a href="convertor.html" target="blank">temperature convertor</a></li>
+            <span id="time"></span>  
+        </header>
+        </ul>  
+         
+    </header>
+
+    <div id="body">
+        <h1> CALCULATOR</h1>
+        <div id="button"> 
+            <input type="text" id="screen"> 
+            
+            <table>
+                   
+                    <tr>
+                        <td> <button onclick="num('7')">7</button></td>
+                        <td> <button onclick="num('8')">8</button></td>
+                        <td> <button onclick="num('9')">9</button></td>
+                        <td> <button onclick="num('/')">/</button></td>
+                         <td><button onclick="num(',')">,</button></td>
+                        <td> <button id="c" onclick="btn()">C</button></td>
+                    </tr>
+                    <tr>
+                       <td> <button onclick="num('4')">4</Cbutton></td>
+                        <td> <button onclick="num('5')">5</button></td>
+                        <td> <button onclick="num('6')">6</button></td>
+                         <td> <button onclick="num('*')">*</button></td>
+                         <td> <button onclick="num('(')">(</button></td>
+                         <td> <button onclick="num(')')">)</button></td>
+                    </tr>
+                    <tr>
+                       <td> <button onclick="num('1')">1</button></td> 
+                       <td> <button onclick="num('2')">2</button></td> 
+                       <td> <button onclick="num('3')">3</button></td> 
+                       <td> <button onclick="num('+')">+</button></td>
+                       <td> <button onclick="num('-')">-</button></td> 
+                       <td> <button onclick="num('.')">.</button></td>  
+                    </tr>
+                    <tr>
+ 
+                        <td> <button onclick="num('0')">0</button></td>
+                        <td> <button onclick="num('00')">00</button></td>
+                        <td> <button onclick="evaluto()">=</button></td>
+                        <td> <button id="ce" onclick="clearscreen()">CE</button></td>
+                        <td> <button id="fx"><a href="trignometry.html">fx</a></button></td>
+                        
+                    </tr>        
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+ <section>
+     <h1>THINGS TO REMEMBER WHILE USING CALCULATOR...</h1>
+     <p>
+         <B id="note">NOTE:-FOR EVERY NEXT CALCULATION ALWAYS CLEAR PREVIOUS CALCULATION RESULT</B><BR>
+        ITS A KIND OF SIMPLE CALCULATOR WHICH CAN DO ALL  KIND OF ARITHEMATIC OPEERATION LIKE ADDITON ,SUBTRACTION,MULTIPLICATION AND DIVISON .<br> IT CAN FIND AVERAGE AND PERCENTAGE.<BR>
+            PLEASE hit on <b>FX</b> button for <B>TRIGNOMETRIC CALCULATOR</B> FOR YOUR CONVENEINCE SIR/MAM.<BR>
+            Also try our temperature convertor to change temperature.
+     </p>
+ </section>
+
+
+  
+    
+</body>
+<script src="script.js"></script>
+</html>
